@@ -3,6 +3,8 @@ Zadání UC diagramu
 Systém automatické identifikace škůdců ovocných stromů
 Systém automatické identifikace škůdců ovocných stromů umožňuje sadaři nahrát fotografii lepové desky a zadat umístění desky v rámci sadu (pole nebo sektor). Na základě dodané fotografie systém automaticky provede analýzu obrazu, identifikuje jednotlivé druhy škůdců a určí jejich počet. Při vyhodnocení zohledňuje také aktuální a historická hydrometeorologická data a kalendářní informace, které získává z externích systémů. Výsledky analýzy zobrazí uživateli a současně je uloží do databáze jako evidenci výskytu škůdců s údajem o datu a lokalitě zjištění. Systém dále vyhodnocuje míru napadení a v případě potřeby vyhledá v databázi ochranných prostředků vhodný postřik, který sadaři doporučí včetně základních informací o přípravku. Administrátor systému spravuje databázi škůdců, databázi ochranných prostředků a uživatelské účty.
 
+![UC diagram](images/UC_diagram.png)
+
 Zdrojový kód
 
 ```bash
